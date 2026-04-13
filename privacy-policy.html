@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - Sábado Adventista</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #08081A;
+            color: #E8E0D4;
+            line-height: 1.7;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 1.8rem;
+            color: #F4D58D;
+            margin-bottom: 0.5rem;
+        }
+        h2 {
+            font-size: 1.2rem;
+            color: #E8A849;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        p, li {
+            margin-bottom: 0.8rem;
+            color: #C4B8A8;
+        }
+        ul { padding-left: 1.5rem; }
+        .date { color: #8B8B9E; font-size: 0.9rem; margin-bottom: 2rem; }
+        a { color: #E8A849; }
+        .lang-switch {
+            display: inline-block;
+            margin-bottom: 2rem;
+            padding: 0.4rem 1rem;
+            border: 1px solid #E8A849;
+            border-radius: 20px;
+            color: #E8A849;
+            cursor: pointer;
+            font-size: 0.85rem;
+            background: transparent;
+        }
+        .lang-switch:hover { background: rgba(232, 168, 73, 0.1); }
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="lang-switch" onclick="toggleLang()">
+            <span id="lang-label">English Version</span>
+        </button>
+
+        <!-- PORTUGUESE -->
+        <div id="pt">
+            <h1>Politica de Privacidade</h1>
+            <p class="date">Data de vigencia: 13 de abril de 2026</p>
+
+            <p>A aplicacao <strong>Sabado Adventista</strong> ("nos", "a app") respeita a sua privacidade. Esta politica explica que dados sao acedidos, como sao utilizados e os seus direitos.</p>
+
+            <h2>1. Dados que acedemos</h2>
+            <ul>
+                <li><strong>Localizacao do dispositivo</strong> - Utilizada exclusivamente para calcular o horario do por do sol na sua regiao. A localizacao e processada localmente no seu dispositivo e nunca e enviada para servidores externos.</li>
+                <li><strong>Preferencias da app</strong> - Idioma, tema, versiculos favoritos e configuracoes de notificacao. Todos armazenados localmente no seu dispositivo.</li>
+                <li><strong>Token de notificacao</strong> - Se ativar as notificacoes push (opcional), um token e gerado pelo sistema operativo para entregar as notificacoes. As notificacoes sao agendadas localmente.</li>
+            </ul>
+
+            <h2>2. Dados que NAO recolhemos</h2>
+            <ul>
+                <li>Nao recolhemos dados pessoais identificaveis (nome, email, telefone).</li>
+                <li>Nao utilizamos sistemas de analytics ou rastreamento.</li>
+                <li>Nao enviamos dados para servidores externos.</li>
+                <li>Nao partilhamos dados com terceiros.</li>
+                <li>Nao exibimos publicidade.</li>
+            </ul>
+
+            <h2>3. Armazenamento de dados</h2>
+            <p>Todos os dados sao armazenados localmente no seu dispositivo usando AsyncStorage. Nao temos acesso a estes dados. Se desinstalar a app, todos os dados sao automaticamente removidos.</p>
+
+            <h2>4. Permissoes</h2>
+            <ul>
+                <li><strong>Localizacao</strong> - Necessaria para calcular o horario exato do por do sol. Pode negar esta permissao; a app continuara a funcionar com uma localizacao predefinida.</li>
+                <li><strong>Notificacoes</strong> - Opcional. Permite receber lembretes do inicio do Sabado e versiculos diarios.</li>
+            </ul>
+
+            <h2>5. Seguranca</h2>
+            <p>Como todos os dados permanecem no seu dispositivo e nenhuma informacao e transmitida pela internet, o risco de exposicao de dados e minimo.</p>
+
+            <h2>6. Privacidade de criancas</h2>
+            <p>A app nao recolhe dados de nenhum utilizador, incluindo criancas menores de 13 anos. Nao existe registo de conta nem recolha de informacao pessoal.</p>
+
+            <h2>7. Alteracoes a esta politica</h2>
+            <p>Podemos atualizar esta politica periodicamente. Quaisquer alteracoes serao publicadas nesta pagina com a data de vigencia atualizada.</p>
+
+            <h2>8. Contacto</h2>
+            <p>Se tiver questoes sobre esta politica de privacidade, contacte-nos em:<br>
+            <a href="mailto:adventistsabbathapp@gmail.com">adventistsabbathapp@gmail.com</a></p>
+        </div>
+
+        <!-- ENGLISH -->
+        <div id="en" class="hidden">
+            <h1>Privacy Policy</h1>
+            <p class="date">Effective date: April 13, 2026</p>
+
+            <p>The <strong>Sabado Adventista</strong> application ("we", "the app") respects your privacy. This policy explains what data is accessed, how it is used, and your rights.</p>
+
+            <h2>1. Data we access</h2>
+            <ul>
+                <li><strong>Device location</strong> - Used exclusively to calculate sunset times in your area. Location is processed locally on your device and is never sent to external servers.</li>
+                <li><strong>App preferences</strong> - Language, theme, favorite verses, and notification settings. All stored locally on your device.</li>
+                <li><strong>Notification token</strong> - If you enable push notifications (optional), a token is generated by the operating system to deliver notifications. Notifications are scheduled locally.</li>
+            </ul>
+
+            <h2>2. Data we do NOT collect</h2>
+            <ul>
+                <li>We do not collect personally identifiable information (name, email, phone).</li>
+                <li>We do not use analytics or tracking systems.</li>
+                <li>We do not send data to external servers.</li>
+                <li>We do not share data with third parties.</li>
+                <li>We do not display advertising.</li>
+            </ul>
+
+            <h2>3. Data storage</h2>
+            <p>All data is stored locally on your device using AsyncStorage. We have no access to this data. If you uninstall the app, all data is automatically removed.</p>
+
+            <h2>4. Permissions</h2>
+            <ul>
+                <li><strong>Location</strong> - Required to calculate exact sunset times. You may deny this permission; the app will continue to work with a default location.</li>
+                <li><strong>Notifications</strong> - Optional. Allows you to receive Sabbath start reminders and daily verses.</li>
+            </ul>
+
+            <h2>5. Security</h2>
+            <p>Since all data remains on your device and no information is transmitted over the internet, the risk of data exposure is minimal.</p>
+
+            <h2>6. Children's privacy</h2>
+            <p>The app does not collect data from any user, including children under 13. There is no account registration or personal information collection.</p>
+
+            <h2>7. Changes to this policy</h2>
+            <p>We may update this policy periodically. Any changes will be posted on this page with an updated effective date.</p>
+
+            <h2>8. Contact</h2>
+            <p>If you have questions about this privacy policy, contact us at:<br>
+            <a href="mailto:adventistsabbathapp@gmail.com">adventistsabbathapp@gmail.com</a></p>
+        </div>
+    </div>
+
+    <script>
+        let currentLang = 'pt';
+        function toggleLang() {
+            if (currentLang === 'pt') {
+                document.getElementById('pt').classList.add('hidden');
+                document.getElementById('en').classList.remove('hidden');
+                document.getElementById('lang-label').textContent = 'Versao Portuguesa';
+                currentLang = 'en';
+            } else {
+                document.getElementById('en').classList.add('hidden');
+                document.getElementById('pt').classList.remove('hidden');
+                document.getElementById('lang-label').textContent = 'English Version';
+                currentLang = 'pt';
+            }
+        }
+    </script>
+</body>
+</html>
